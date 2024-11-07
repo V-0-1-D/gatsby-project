@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-index-js-51a3752623467f6d99a5.js","mappings":"0IAOA,UAJiB,IACR,yBAAG,mB","sources":["webpack://gatsby-project/./src/pages/index.js"],"sourcesContent":["import * as React from \"react\";\nimport './index.css';\n\nconst HomePage = () => {\n  return <p>This is a mirage</p>;\n};\n\nexport default HomePage;"],"names":[],"sourceRoot":""}
