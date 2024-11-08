@@ -1,0 +1,31 @@
+/* Smaller Screens (Default Style) */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #222;
+    color: #999;
+    height: 100svh;
+    width: 100svw;
+}
+
+#___gatsby {
+    height: 100%;
+    width: 100%;
+}
+
+#gatsby-focus-wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+}
+
+/* Larger Screens */
+@media (min-width: 1024px) {
+}

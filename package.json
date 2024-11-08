@@ -4,6 +4,7 @@
   "private": true,
   "description": "gatsby-project",
   "author": "V-0-1-D",
+  "homepage": "https://yourusername.github.io/your-repo-name",
   "keywords": [
     "gatsby"
   ],
@@ -12,11 +13,15 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages",
     "clean": "gatsby clean"
   },
   "dependencies": {
     "gatsby": "^5.13.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
