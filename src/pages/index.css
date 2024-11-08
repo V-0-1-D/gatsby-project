@@ -1,3 +1,4 @@
+/* Smaller Screens (Default Style) */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,19 +7,25 @@
 
 body {
     background-color: #222;
-    color: #ccc;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
+    color: #999;
     height: 100svh;
     width: 100svw;
-
-    font-size: 5rem;
 }
 
-p {
-    text-shadow: #999 1px 1px 25px;
+#___gatsby {
+    height: 100%;
+    width: 100%;
+}
+
+#gatsby-focus-wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+}
+
+/* Larger Screens */
+@media (min-width: 1024px) {
 }
